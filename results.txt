@@ -1,0 +1,888 @@
+AES | ANF_CSE_LS-primitive depth=1008   size=1021   Toffoli_N=5062   Depth_N=3556  ancilla=0 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=94280  size=136827ancilla=0 ops={'u': 82824, 'cx': 53995, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1011   size=1031   Toffoli_N=4854   Depth_N=3361  ancilla=5 ops={'mcx': 782, 'ccx': 186, 'cx': 51, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=92849  size=135113ancilla=5 ops={'u': 81942, 'cx': 53163, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1016   size=1041   Toffoli_N=4706   Depth_N=3222  ancilla=10 ops={'mcx': 710, 'ccx': 254, 'cx': 65, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=91794  size=133915ancilla=10 ops={'u': 81330, 'cx': 52577, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1022   size=1051   Toffoli_N=4609   Depth_N=3136  ancilla=15 ops={'mcx': 664, 'ccx': 295, 'cx': 80, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=90908  size=133119ancilla=15 ops={'u': 80917, 'cx': 52194, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1024   size=1061   Toffoli_N=4549   Depth_N=3084  ancilla=20 ops={'mcx': 637, 'ccx': 316, 'cx': 96, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=90130  size=132613ancilla=20 ops={'u': 80647, 'cx': 51958, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1035   size=1071   Toffoli_N=4387   Depth_N=3017  ancilla=25 ops={'mcx': 617, 'ccx': 316, 'cx': 126, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=86396  size=126939ancilla=25 ops={'u': 77281, 'cx': 49650, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1030   size=1081   Toffoli_N=4215   Depth_N=2920  ancilla=30 ops={'mcx': 597, 'ccx': 316, 'cx': 156, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=81834  size=120257ancilla=30 ops={'u': 73289, 'cx': 46960, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1040   size=1091   Toffoli_N=4067   Depth_N=2854  ancilla=35 ops={'mcx': 575, 'ccx': 316, 'cx': 188, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=78806  size=115899ancilla=35 ops={'u': 70627, 'cx': 45264, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1050   size=1101   Toffoli_N=3929   Depth_N=2792  ancilla=40 ops={'mcx': 557, 'ccx': 316, 'cx': 216, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=75872  size=111361ancilla=40 ops={'u': 67909, 'cx': 43444, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1056   size=1111   Toffoli_N=3813   Depth_N=2742  ancilla=45 ops={'mcx': 541, 'ccx': 316, 'cx': 242, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=72833  size=107091ancilla=45 ops={'u': 65293, 'cx': 41790, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1065   size=1121   Toffoli_N=3708   Depth_N=2691  ancilla=50 ops={'mcx': 526, 'ccx': 316, 'cx': 267, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=70624  size=103951ancilla=50 ops={'u': 63388, 'cx': 40555, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1076   size=1131   Toffoli_N=3603   Depth_N=2642  ancilla=55 ops={'mcx': 511, 'ccx': 316, 'cx': 292, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=68529  size=100811ancilla=55 ops={'u': 61483, 'cx': 39320, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1086   size=1141   Toffoli_N=3498   Depth_N=2592  ancilla=60 ops={'mcx': 496, 'cx': 317, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=66641  size=97671 ancilla=60 ops={'u': 59578, 'cx': 38085, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1085   size=1151   Toffoli_N=3402   Depth_N=2551  ancilla=65 ops={'mcx': 480, 'cx': 343, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=64696  size=95081 ancilla=65 ops={'u': 57954, 'cx': 37119, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1095   size=1161   Toffoli_N=3308   Depth_N=2521  ancilla=70 ops={'mcx': 466, 'cx': 367, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=62649  size=92231 ancilla=70 ops={'u': 56208, 'cx': 36015, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1103   size=1171   Toffoli_N=3248   Depth_N=2505  ancilla=75 ops={'mcx': 458, 'cx': 385, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=61406  size=90325 ancilla=75 ops={'u': 55032, 'cx': 35285, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1114   size=1181   Toffoli_N=3177   Depth_N=2478  ancilla=80 ops={'mcx': 447, 'cx': 406, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=60088  size=88343 ancilla=80 ops={'u': 53809, 'cx': 34526, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1125   size=1191   Toffoli_N=3104   Depth_N=2455  ancilla=85 ops={'mcx': 434, 'cx': 429, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=58821  size=86577 ancilla=85 ops={'u': 52680, 'cx': 33889, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1135   size=1201   Toffoli_N=3032   Depth_N=2429  ancilla=90 ops={'cx': 451, 'mcx': 422, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=57544  size=84703 ancilla=90 ops={'u': 51504, 'cx': 33191, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1145   size=1211   Toffoli_N=2981   Depth_N=2413  ancilla=95 ops={'cx': 468, 'mcx': 415, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=56443  size=83201 ancilla=95 ops={'u': 50569, 'cx': 32624, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1153   size=1221   Toffoli_N=2950   Depth_N=2407  ancilla=100 ops={'cx': 481, 'mcx': 412, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=55772  size=82179 ancilla=100 ops={'u': 49922, 'cx': 32249, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1151   size=1231   Toffoli_N=2935   Depth_N=2401  ancilla=105 ops={'cx': 490, 'mcx': 413, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=55224  size=81295 ancilla=105 ops={'u': 49393, 'cx': 31894, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1162   size=1241   Toffoli_N=2950   Depth_N=2424  ancilla=110 ops={'cx': 493, 'mcx': 420, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=55258  size=81207 ancilla=110 ops={'u': 49330, 'cx': 31869, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1157   size=1251   Toffoli_N=2920   Depth_N=2407  ancilla=115 ops={'cx': 505, 'mcx': 418, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=54463  size=79925 ancilla=115 ops={'u': 48568, 'cx': 31349, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1161   size=1261   Toffoli_N=2874   Depth_N=2391  ancilla=120 ops={'cx': 521, 'mcx': 412, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=53521  size=78375 ancilla=120 ops={'u': 47634, 'cx': 30733, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1163   size=1271   Toffoli_N=2824   Depth_N=2373  ancilla=125 ops={'cx': 541, 'mcx': 402, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=52693  size=77345 ancilla=125 ops={'u': 46944, 'cx': 30393, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1172   size=1281   Toffoli_N=2774   Depth_N=2362  ancilla=130 ops={'cx': 561, 'mcx': 392, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=51814  size=76315 ancilla=130 ops={'u': 46254, 'cx': 30053, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1183   size=1291   Toffoli_N=2724   Depth_N=2353  ancilla=135 ops={'cx': 581, 'mcx': 382, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=50889  size=75285 ancilla=135 ops={'u': 45564, 'cx': 29713, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1193   size=1301   Toffoli_N=2674   Depth_N=2343  ancilla=140 ops={'cx': 601, 'mcx': 372, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49995  size=74255 ancilla=140 ops={'u': 44874, 'cx': 29373, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1187   size=1311   Toffoli_N=2659   Depth_N=2333  ancilla=145 ops={'cx': 612, 'mcx': 371, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49593  size=73759 ancilla=145 ops={'u': 44539, 'cx': 29212, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1197   size=1321   Toffoli_N=2676   Depth_N=2355  ancilla=150 ops={'cx': 615, 'mcx': 378, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49627  size=73799 ancilla=150 ops={'u': 44548, 'cx': 29243, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1208   size=1331   Toffoli_N=2680   Depth_N=2370  ancilla=155 ops={'cx': 621, 'mcx': 382, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49596  size=73569 ancilla=155 ops={'u': 44396, 'cx': 29165, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1213   size=1341   Toffoli_N=2684   Depth_N=2379  ancilla=160 ops={'cx': 627, 'mcx': 386, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49553  size=73339 ancilla=160 ops={'u': 44244, 'cx': 29087, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1217   size=1351   Toffoli_N=2675   Depth_N=2379  ancilla=165 ops={'cx': 636, 'mcx': 387, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49345  size=72839 ancilla=165 ops={'u': 43931, 'cx': 28900, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1226   size=1361   Toffoli_N=2666   Depth_N=2384  ancilla=170 ops={'cx': 645, 'mcx': 388, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49120  size=72339 ancilla=170 ops={'u': 43618, 'cx': 28713, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1233   size=1371   Toffoli_N=2685   Depth_N=2405  ancilla=175 ops={'cx': 648, 'mcx': 395, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49180  size=72485 ancilla=175 ops={'u': 43685, 'cx': 28792, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1245   size=1381   Toffoli_N=2704   Depth_N=2431  ancilla=180 ops={'cx': 651, 'mcx': 402, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49285  size=72631 ancilla=180 ops={'u': 43752, 'cx': 28871, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1256   size=1391   Toffoli_N=2701   Depth_N=2444  ancilla=185 ops={'cx': 660, 'mcx': 403, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=49099  size=72449 ancilla=185 ops={'u': 43613, 'cx': 28828, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1266   size=1401   Toffoli_N=2698   Depth_N=2456  ancilla=190 ops={'cx': 669, 'mcx': 404, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=48882  size=72267 ancilla=190 ops={'u': 43474, 'cx': 28785, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1275   size=1411   Toffoli_N=2684   Depth_N=2461  ancilla=195 ops={'cx': 681, 'mcx': 402, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=48464  size=71921 ancilla=195 ops={'u': 43232, 'cx': 28681, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1272   size=1421   Toffoli_N=2681   Depth_N=2460  ancilla=200 ops={'cx': 690, 'mcx': 403, 'ccx': 316, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=48243  size=71739 ancilla=200 ops={'u': 43093, 'cx': 28638, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1271   size=1431   Toffoli_N=2657   Depth_N=2451  ancilla=205 ops={'cx': 708, 'mcx': 399, 'ccx': 312, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=47681  size=71277 ancilla=205 ops={'u': 42781, 'cx': 28488, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1260   size=1441   Toffoli_N=2681   Depth_N=2456  ancilla=210 ops={'cx': 710, 'mcx': 407, 'ccx': 312, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=47856  size=71527 ancilla=210 ops={'u': 42917, 'cx': 28602, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1271   size=1451   Toffoli_N=2705   Depth_N=2483  ancilla=215 ops={'cx': 712, 'mcx': 415, 'ccx': 312, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=48119  size=71777 ancilla=215 ops={'u': 43053, 'cx': 28716, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1271   size=1461   Toffoli_N=2714   Depth_N=2491  ancilla=220 ops={'cx': 721, 'mcx': 419, 'ccx': 309, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=48304  size=71865 ancilla=220 ops={'u': 43094, 'cx': 28763, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1280   size=1471   Toffoli_N=2718   Depth_N=2504  ancilla=225 ops={'cx': 731, 'mcx': 421, 'ccx': 307, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=48262  size=71907 ancilla=225 ops={'u': 43110, 'cx': 28789, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1218   size=1481   Toffoli_N=2714   Depth_N=2442  ancilla=230 ops={'cx': 745, 'mcx': 421, 'ccx': 303, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=47931  size=71861 ancilla=230 ops={'u': 43074, 'cx': 28779, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1202   size=1491   Toffoli_N=2725   Depth_N=2434  ancilla=235 ops={'cx': 752, 'mcx': 425, 'ccx': 302, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=47841  size=71977 ancilla=235 ops={'u': 43133, 'cx': 28836, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1204   size=1493   Toffoli_N=2724   Depth_N=2436  ancilla=236 ops={'cx': 755, 'mcx': 425, 'ccx': 301, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=47724  size=71965 ancilla=236 ops={'u': 43124, 'cx': 28833, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1204   size=1493   Toffoli_N=2724   Depth_N=2436  ancilla=236 ops={'cx': 755, 'mcx': 425, 'ccx': 301, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=47724  size=71965 ancilla=236 ops={'u': 43124, 'cx': 28833, 'measure': 8}
+AES | ANF_CSE_LS-primitive depth=1204   size=1493   Toffoli_N=2724   Depth_N=2436  ancilla=236 ops={'cx': 755, 'mcx': 425, 'ccx': 301, 'measure': 8, 'x': 4}
+AES | ANF_CSE_LS-transpiled depth=47724  size=71965 ancilla=236 ops={'u': 43124, 'cx': 28833, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1020   size=1036   Toffoli_N=5146   Depth_N=3586  ancilla=0 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=97351  size=141338ancilla=0 ops={'u': 85589, 'cx': 55741, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1023   size=1046   Toffoli_N=4952   Depth_N=3411  ancilla=5 ops={'mcx': 788, 'ccx': 188, 'cx': 57, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=95960  size=139700ancilla=5 ops={'u': 84733, 'cx': 54959, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1030   size=1056   Toffoli_N=4809   Depth_N=3280  ancilla=10 ops={'mcx': 719, 'ccx': 252, 'cx': 72, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=94919  size=138536ancilla=10 ops={'u': 84136, 'cx': 54392, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1035   size=1066   Toffoli_N=4721   Depth_N=3205  ancilla=15 ops={'mcx': 679, 'ccx': 284, 'cx': 90, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=94164  size=137794ancilla=15 ops={'u': 83744, 'cx': 54042, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1039   size=1076   Toffoli_N=4663   Depth_N=3169  ancilla=20 ops={'mcx': 659, 'ccx': 286, 'cx': 118, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=93384  size=137232ancilla=20 ops={'u': 83422, 'cx': 53802, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1041   size=1086   Toffoli_N=4485   Depth_N=3081  ancilla=25 ops={'mcx': 636, 'ccx': 289, 'cx': 148, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=88668  size=130348ancilla=25 ops={'u': 79354, 'cx': 50986, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1051   size=1096   Toffoli_N=4333   Depth_N=3005  ancilla=30 ops={'mcx': 616, 'ccx': 289, 'cx': 178, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=85166  size=125168ancilla=30 ops={'u': 76232, 'cx': 48928, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1060   size=1106   Toffoli_N=4196   Depth_N=2946  ancilla=35 ops={'mcx': 599, 'ccx': 289, 'cx': 205, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=82101  size=120456ancilla=35 ops={'u': 73425, 'cx': 47023, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1071   size=1116   Toffoli_N=4059   Depth_N=2889  ancilla=40 ops={'mcx': 582, 'ccx': 289, 'cx': 232, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=79049  size=115744ancilla=40 ops={'u': 70618, 'cx': 45118, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1079   size=1126   Toffoli_N=3926   Depth_N=2833  ancilla=45 ops={'mcx': 561, 'ccx': 289, 'cx': 263, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=76641  size=112020ancilla=45 ops={'u': 68315, 'cx': 43697, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1091   size=1136   Toffoli_N=3807   Depth_N=2791  ancilla=50 ops={'mcx': 542, 'cx': 292, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=73831  size=108310ancilla=50 ops={'u': 65996, 'cx': 42306, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1101   size=1146   Toffoli_N=3701   Depth_N=2741  ancilla=55 ops={'mcx': 528, 'cx': 316, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=71500  size=104720ancilla=55 ops={'u': 63830, 'cx': 40882, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1110   size=1156   Toffoli_N=3596   Depth_N=2690  ancilla=60 ops={'mcx': 513, 'cx': 341, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=69356  size=101580ancilla=60 ops={'u': 61925, 'cx': 39647, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1121   size=1166   Toffoli_N=3491   Depth_N=2641  ancilla=65 ops={'mcx': 498, 'cx': 366, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=67394  size=98440 ancilla=65 ops={'u': 60020, 'cx': 38412, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1130   size=1176   Toffoli_N=3395   Depth_N=2610  ancilla=70 ops={'mcx': 482, 'cx': 392, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=65566  size=95850 ancilla=70 ops={'u': 58396, 'cx': 37446, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1132   size=1186   Toffoli_N=3303   Depth_N=2572  ancilla=75 ops={'mcx': 470, 'cx': 414, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=63473  size=92740 ancilla=75 ops={'u': 56528, 'cx': 36204, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1140   size=1196   Toffoli_N=3240   Depth_N=2554  ancilla=80 ops={'mcx': 463, 'cx': 431, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=61916  size=90470 ancilla=80 ops={'u': 55161, 'cx': 35301, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1147   size=1206   Toffoli_N=3188   Depth_N=2537  ancilla=85 ops={'mcx': 455, 'cx': 449, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=60948  size=89076 ancilla=85 ops={'u': 54273, 'cx': 34795, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1157   size=1216   Toffoli_N=3115   Depth_N=2513  ancilla=90 ops={'cx': 472, 'mcx': 442, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=59591  size=87310 ancilla=90 ops={'u': 53144, 'cx': 34158, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1166   size=1226   Toffoli_N=3044   Depth_N=2484  ancilla=95 ops={'cx': 493, 'mcx': 431, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=58463  size=85328 ancilla=95 ops={'u': 51921, 'cx': 33399, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1176   size=1236   Toffoli_N=2972   Depth_N=2458  ancilla=100 ops={'cx': 515, 'mcx': 419, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=57136  size=83454 ancilla=100 ops={'u': 50745, 'cx': 32701, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1187   size=1246   Toffoli_N=2899   Depth_N=2435  ancilla=105 ops={'cx': 538, 'mcx': 406, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=55766  size=81688 ancilla=105 ops={'u': 49616, 'cx': 32064, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1188   size=1256   Toffoli_N=2832   Depth_N=2398  ancilla=110 ops={'cx': 557, 'mcx': 397, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=54442  size=79478 ancilla=110 ops={'u': 48279, 'cx': 31191, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1196   size=1266   Toffoli_N=2826   Depth_N=2408  ancilla=115 ops={'cx': 565, 'mcx': 399, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=54132  size=79018 ancilla=115 ops={'u': 47975, 'cx': 31035, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1205   size=1276   Toffoli_N=2811   Depth_N=2413  ancilla=120 ops={'cx': 574, 'mcx': 400, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=53651  size=78134 ancilla=120 ops={'u': 47446, 'cx': 30680, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1210   size=1286   Toffoli_N=2777   Depth_N=2406  ancilla=125 ops={'cx': 590, 'mcx': 394, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=52966  size=77372 ancilla=125 ops={'u': 46928, 'cx': 30436, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1222   size=1296   Toffoli_N=2727   Depth_N=2398  ancilla=130 ops={'cx': 610, 'mcx': 384, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=52050  size=76342 ancilla=130 ops={'u': 46238, 'cx': 30096, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1229   size=1306   Toffoli_N=2677   Depth_N=2385  ancilla=135 ops={'cx': 630, 'mcx': 374, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=51016  size=75312 ancilla=135 ops={'u': 45548, 'cx': 29756, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1240   size=1316   Toffoli_N=2627   Depth_N=2376  ancilla=140 ops={'cx': 650, 'mcx': 364, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=50085  size=74282 ancilla=140 ops={'u': 44858, 'cx': 29416, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1249   size=1326   Toffoli_N=2593   Depth_N=2373  ancilla=145 ops={'cx': 666, 'mcx': 358, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=49394  size=73520 ancilla=145 ops={'u': 44340, 'cx': 29172, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1260   size=1336   Toffoli_N=2610   Depth_N=2396  ancilla=150 ops={'cx': 669, 'mcx': 365, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=49418  size=73560 ancilla=150 ops={'u': 44349, 'cx': 29203, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1267   size=1346   Toffoli_N=2601   Depth_N=2399  ancilla=155 ops={'cx': 678, 'mcx': 366, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=49130  size=73060 ancilla=155 ops={'u': 44036, 'cx': 29016, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1275   size=1356   Toffoli_N=2605   Depth_N=2411  ancilla=160 ops={'cx': 684, 'mcx': 370, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=49086  size=72830 ancilla=160 ops={'u': 43884, 'cx': 28938, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1283   size=1366   Toffoli_N=2611   Depth_N=2425  ancilla=165 ops={'cx': 690, 'mcx': 374, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=49044  size=72706 ancilla=165 ops={'u': 43790, 'cx': 28908, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1294   size=1376   Toffoli_N=2608   Depth_N=2438  ancilla=170 ops={'cx': 699, 'mcx': 375, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48856  size=72524 ancilla=170 ops={'u': 43651, 'cx': 28865, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1304   size=1386   Toffoli_N=2627   Depth_N=2462  ancilla=175 ops={'cx': 702, 'mcx': 382, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48900  size=72670 ancilla=175 ops={'u': 43718, 'cx': 28944, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1314   size=1396   Toffoli_N=2635   Depth_N=2480  ancilla=180 ops={'cx': 708, 'mcx': 386, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48862  size=72652 ancilla=180 ops={'u': 43682, 'cx': 28962, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1321   size=1406   Toffoli_N=2632   Depth_N=2489  ancilla=185 ops={'cx': 717, 'mcx': 387, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48488  size=72470 ancilla=185 ops={'u': 43543, 'cx': 28919, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1331   size=1416   Toffoli_N=2607   Depth_N=2489  ancilla=190 ops={'cx': 732, 'mcx': 382, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48021  size=71960 ancilla=190 ops={'u': 43198, 'cx': 28754, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1280   size=1426   Toffoli_N=2625   Depth_N=2450  ancilla=195 ops={'cx': 736, 'mcx': 388, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48119  size=72150 ancilla=195 ops={'u': 43300, 'cx': 28842, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1250   size=1436   Toffoli_N=2631   Depth_N=2424  ancilla=200 ops={'cx': 744, 'mcx': 390, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48194  size=72220 ancilla=200 ops={'u': 43334, 'cx': 28878, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1243   size=1446   Toffoli_N=2655   Depth_N=2433  ancilla=205 ops={'cx': 746, 'mcx': 398, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48342  size=72470 ancilla=205 ops={'u': 43470, 'cx': 28992, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1200   size=1456   Toffoli_N=2673   Depth_N=2402  ancilla=210 ops={'cx': 750, 'mcx': 404, 'ccx': 289, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48456  size=72660 ancilla=210 ops={'u': 43572, 'cx': 29080, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1203   size=1466   Toffoli_N=2694   Depth_N=2421  ancilla=215 ops={'cx': 755, 'mcx': 412, 'ccx': 286, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48503  size=72868 ancilla=215 ops={'u': 43681, 'cx': 29179, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1137   size=1476   Toffoli_N=2697   Depth_N=2359  ancilla=220 ops={'cx': 766, 'mcx': 414, 'ccx': 283, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48394  size=72896 ancilla=220 ops={'u': 43688, 'cx': 29200, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1111   size=1486   Toffoli_N=2697   Depth_N=2333  ancilla=225 ops={'cx': 776, 'mcx': 414, 'ccx': 283, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48215  size=72906 ancilla=225 ops={'u': 43688, 'cx': 29210, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1118   size=1496   Toffoli_N=2715   Depth_N=2352  ancilla=230 ops={'cx': 780, 'mcx': 420, 'ccx': 283, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48235  size=73096 ancilla=230 ops={'u': 43790, 'cx': 29298, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1048   size=1506   Toffoli_N=2731   Depth_N=2294  ancilla=235 ops={'cx': 786, 'mcx': 426, 'ccx': 281, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48133  size=73258 ancilla=235 ops={'u': 43874, 'cx': 29376, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1050   size=1516   Toffoli_N=2742   Depth_N=2304  ancilla=240 ops={'cx': 793, 'mcx': 430, 'ccx': 280, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48054  size=73374 ancilla=240 ops={'u': 43933, 'cx': 29433, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1050   size=1516   Toffoli_N=2742   Depth_N=2304  ancilla=240 ops={'cx': 793, 'mcx': 430, 'ccx': 280, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48054  size=73374 ancilla=240 ops={'u': 43933, 'cx': 29433, 'measure': 8}
+SM4 | ANF_CSE_LS-primitive depth=1050   size=1516   Toffoli_N=2742   Depth_N=2304  ancilla=240 ops={'cx': 793, 'mcx': 430, 'ccx': 280, 'measure': 8, 'x': 5}
+SM4 | ANF_CSE_LS-transpiled depth=48054  size=73374 ancilla=240 ops={'u': 43933, 'cx': 29433, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=153    size=172    Toffoli_N=417    Depth_N=349   ancilla=0 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5603   size=7766  ancilla=0 ops={'u': 4759, 'cx': 2999, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=154    size=182    Toffoli_N=354    Depth_N=288   ancilla=5 ops={'ccx': 77, 'mcx': 57, 'cx': 36, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5104   size=7266  ancilla=5 ops={'u': 4502, 'cx': 2756, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=157    size=192    Toffoli_N=327    Depth_N=269   ancilla=10 ops={'ccx': 83, 'cx': 51, 'mcx': 46, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=4877   size=7030  ancilla=10 ops={'u': 4369, 'cx': 2653, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=156    size=202    Toffoli_N=322    Depth_N=262   ancilla=15 ops={'ccx': 89, 'cx': 58, 'mcx': 43, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=4775   size=6960  ancilla=15 ops={'u': 4320, 'cx': 2632, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=169    size=212    Toffoli_N=340    Depth_N=287   ancilla=20 ops={'ccx': 89, 'cx': 62, 'mcx': 49, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=4875   size=7150  ancilla=20 ops={'u': 4422, 'cx': 2720, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=174    size=222    Toffoli_N=363    Depth_N=308   ancilla=25 ops={'ccx': 88, 'cx': 65, 'mcx': 57, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5009   size=7386  ancilla=25 ops={'u': 4549, 'cx': 2829, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=180    size=232    Toffoli_N=380    Depth_N=326   ancilla=30 ops={'ccx': 87, 'cx': 70, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5106   size=7562  ancilla=30 ops={'u': 4642, 'cx': 2912, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+SKINNY | ANF_CSE_LS-primitive depth=179    size=236    Toffoli_N=380    Depth_N=325   ancilla=32 ops={'ccx': 87, 'cx': 74, 'mcx': 63, 'measure': 8, 'x': 4}
+SKINNY | ANF_CSE_LS-transpiled depth=5098   size=7566  ancilla=32 ops={'u': 4642, 'cx': 2916, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=612    size=640    Toffoli_N=2136   Depth_N=1652  ancilla=0 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=29578  size=40574 ancilla=0 ops={'u': 25179, 'cx': 15387, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=614    size=650    Toffoli_N=1949   Depth_N=1484  ancilla=5 ops={'mcx': 382, 'ccx': 197, 'cx': 58, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=28270  size=38986 ancilla=5 ops={'u': 24346, 'cx': 14632, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=620    size=660    Toffoli_N=1799   Depth_N=1358  ancilla=10 ops={'mcx': 316, 'ccx': 245, 'cx': 86, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=27110  size=37688 ancilla=10 ops={'u': 23656, 'cx': 14024, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=626    size=670    Toffoli_N=1706   Depth_N=1282  ancilla=15 ops={'ccx': 275, 'mcx': 275, 'cx': 107, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=26369  size=36888 ancilla=15 ops={'u': 23229, 'cx': 13651, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=629    size=680    Toffoli_N=1650   Depth_N=1241  ancilla=20 ops={'ccx': 285, 'mcx': 253, 'cx': 129, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=25601  size=36378 ancilla=20 ops={'u': 22945, 'cx': 13425, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=640    size=690    Toffoli_N=1547   Depth_N=1204  ancilla=25 ops={'ccx': 284, 'mcx': 233, 'cx': 160, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=23956  size=34092 ancilla=25 ops={'u': 21480, 'cx': 12604, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=649    size=700    Toffoli_N=1488   Depth_N=1191  ancilla=30 ops={'ccx': 284, 'mcx': 222, 'cx': 181, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=22860  size=32810 ancilla=30 ops={'u': 20617, 'cx': 12185, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=658    size=710    Toffoli_N=1413   Depth_N=1170  ancilla=35 ops={'ccx': 284, 'mcx': 207, 'cx': 206, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=21559  size=31260 ancilla=35 ops={'u': 19582, 'cx': 11670, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=668    size=720    Toffoli_N=1361   Depth_N=1156  ancilla=40 ops={'ccx': 284, 'cx': 224, 'mcx': 199, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=20607  size=29866 ancilla=40 ops={'u': 18694, 'cx': 11164, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=677    size=730    Toffoli_N=1375   Depth_N=1177  ancilla=45 ops={'ccx': 284, 'cx': 228, 'mcx': 205, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=20619  size=29908 ancilla=45 ops={'u': 18692, 'cx': 11208, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=688    size=740    Toffoli_N=1325   Depth_N=1168  ancilla=50 ops={'ccx': 284, 'cx': 248, 'mcx': 195, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=19723  size=28878 ancilla=50 ops={'u': 18002, 'cx': 10868, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=698    size=750    Toffoli_N=1275   Depth_N=1158  ancilla=55 ops={'ccx': 284, 'cx': 268, 'mcx': 185, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18730  size=27848 ancilla=55 ops={'u': 17312, 'cx': 10528, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=702    size=760    Toffoli_N=1305   Depth_N=1182  ancilla=60 ops={'ccx': 284, 'cx': 268, 'mcx': 195, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18814  size=28158 ancilla=60 ops={'u': 17482, 'cx': 10668, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=714    size=770    Toffoli_N=1335   Depth_N=1214  ancilla=65 ops={'ccx': 284, 'cx': 268, 'mcx': 205, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=19117  size=28468 ancilla=65 ops={'u': 17652, 'cx': 10808, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=726    size=780    Toffoli_N=1339   Depth_N=1230  ancilla=70 ops={'ccx': 284, 'cx': 274, 'mcx': 209, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=19059  size=28238 ancilla=70 ops={'u': 17500, 'cx': 10730, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=734    size=790    Toffoli_N=1330   Depth_N=1234  ancilla=75 ops={'ccx': 284, 'cx': 283, 'mcx': 210, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18815  size=27738 ancilla=75 ops={'u': 17187, 'cx': 10543, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=740    size=800    Toffoli_N=1327   Depth_N=1242  ancilla=80 ops={'cx': 292, 'ccx': 284, 'mcx': 211, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18540  size=27556 ancilla=80 ops={'u': 17048, 'cx': 10500, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=749    size=810    Toffoli_N=1324   Depth_N=1253  ancilla=85 ops={'cx': 301, 'ccx': 284, 'mcx': 212, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18327  size=27374 ancilla=85 ops={'u': 16909, 'cx': 10457, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=759    size=820    Toffoli_N=1332   Depth_N=1271  ancilla=90 ops={'cx': 307, 'ccx': 284, 'mcx': 216, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18287  size=27356 ancilla=90 ops={'u': 16873, 'cx': 10475, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=767    size=830    Toffoli_N=1340   Depth_N=1287  ancilla=95 ops={'cx': 313, 'ccx': 284, 'mcx': 220, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18238  size=27338 ancilla=95 ops={'u': 16837, 'cx': 10493, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=777    size=840    Toffoli_N=1337   Depth_N=1299  ancilla=100 ops={'cx': 322, 'ccx': 284, 'mcx': 221, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18028  size=27156 ancilla=100 ops={'u': 16698, 'cx': 10450, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=780    size=850    Toffoli_N=1356   Depth_N=1316  ancilla=105 ops={'cx': 325, 'ccx': 284, 'mcx': 228, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=17991  size=27302 ancilla=105 ops={'u': 16765, 'cx': 10529, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=791    size=860    Toffoli_N=1371   Depth_N=1339  ancilla=110 ops={'cx': 332, 'ccx': 281, 'mcx': 234, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18160  size=27450 ancilla=110 ops={'u': 16840, 'cx': 10602, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=798    size=870    Toffoli_N=1389   Depth_N=1358  ancilla=115 ops={'cx': 336, 'ccx': 281, 'mcx': 240, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18384  size=27640 ancilla=115 ops={'u': 16942, 'cx': 10690, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=810    size=880    Toffoli_N=1395   Depth_N=1374  ancilla=120 ops={'cx': 344, 'ccx': 281, 'mcx': 242, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18636  size=27710 ancilla=120 ops={'u': 16976, 'cx': 10726, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=814    size=890    Toffoli_N=1401   Depth_N=1382  ancilla=125 ops={'cx': 352, 'ccx': 281, 'mcx': 244, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18568  size=27780 ancilla=125 ops={'u': 17010, 'cx': 10762, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=782    size=900    Toffoli_N=1397   Depth_N=1350  ancilla=130 ops={'cx': 366, 'ccx': 277, 'mcx': 244, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18261  size=27734 ancilla=130 ops={'u': 16974, 'cx': 10752, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=785    size=910    Toffoli_N=1395   Depth_N=1353  ancilla=135 ops={'cx': 378, 'ccx': 275, 'mcx': 244, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18182  size=27716 ancilla=135 ops={'u': 16956, 'cx': 10752, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=787    size=920    Toffoli_N=1425   Depth_N=1375  ancilla=140 ops={'cx': 378, 'ccx': 275, 'mcx': 254, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18326  size=28026 ancilla=140 ops={'u': 17126, 'cx': 10892, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=800    size=930    Toffoli_N=1448   Depth_N=1404  ancilla=145 ops={'cx': 381, 'ccx': 274, 'mcx': 262, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18546  size=28262 ancilla=145 ops={'u': 17253, 'cx': 11001, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S0 | ANF_CSE_LS-primitive depth=802    size=938    Toffoli_N=1459   Depth_N=1414  ancilla=149 ops={'cx': 386, 'ccx': 273, 'mcx': 266, 'measure': 8, 'x': 5}
+ZUC_S0 | ANF_CSE_LS-transpiled depth=18559  size=28376 ancilla=149 ops={'u': 17312, 'cx': 11056, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1030   size=1043   Toffoli_N=5177   Depth_N=3592  ancilla=0 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=97863  size=142309ancilla=0 ops={'u': 86207, 'cx': 56094, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1033   size=1053   Toffoli_N=4972   Depth_N=3405  ancilla=5 ops={'mcx': 788, 'ccx': 196, 'cx': 57, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=96466  size=140589ancilla=5 ops={'u': 85312, 'cx': 55269, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1039   size=1063   Toffoli_N=4847   Depth_N=3297  ancilla=10 ops={'mcx': 731, 'ccx': 242, 'cx': 78, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=95493  size=139533ancilla=10 ops={'u': 84757, 'cx': 54768, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1044   size=1073   Toffoli_N=4750   Depth_N=3210  ancilla=15 ops={'mcx': 685, 'ccx': 283, 'cx': 93, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=94658  size=138737ancilla=15 ops={'u': 84344, 'cx': 54385, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1047   size=1083   Toffoli_N=4696   Depth_N=3171  ancilla=20 ops={'mcx': 664, 'ccx': 292, 'cx': 115, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=93884  size=138243ancilla=20 ops={'u': 84068, 'cx': 54167, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1052   size=1093   Toffoli_N=4522   Depth_N=3088  ancilla=25 ops={'mcx': 641, 'ccx': 297, 'cx': 143, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=89420  size=131589ancilla=25 ops={'u': 80140, 'cx': 51441, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1051   size=1103   Toffoli_N=4353   Depth_N=3005  ancilla=30 ops={'mcx': 622, 'ccx': 297, 'cx': 172, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=85013  size=125083ancilla=30 ops={'u': 76281, 'cx': 48794, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1062   size=1113   Toffoli_N=4214   Depth_N=2940  ancilla=35 ops={'mcx': 603, 'ccx': 297, 'cx': 201, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=82138  size=120719ancilla=35 ops={'u': 73652, 'cx': 47059, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1071   size=1123   Toffoli_N=4078   Depth_N=2885  ancilla=40 ops={'mcx': 587, 'ccx': 297, 'cx': 227, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=78828  size=115833ancilla=40 ops={'u': 70756, 'cx': 45069, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1080   size=1133   Toffoli_N=3966   Depth_N=2836  ancilla=45 ops={'mcx': 573, 'ccx': 297, 'cx': 251, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=75436  size=111453ancilla=45 ops={'u': 68104, 'cx': 43341, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1089   size=1143   Toffoli_N=3861   Depth_N=2785  ancilla=50 ops={'mcx': 558, 'ccx': 297, 'cx': 276, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=73479  size=108313ancilla=50 ops={'u': 66199, 'cx': 42106, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1099   size=1153   Toffoli_N=3756   Depth_N=2735  ancilla=55 ops={'mcx': 543, 'cx': 301, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=71548  size=105173ancilla=55 ops={'u': 64294, 'cx': 40871, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1107   size=1163   Toffoli_N=3653   Depth_N=2691  ancilla=60 ops={'mcx': 526, 'cx': 328, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=69840  size=102461ancilla=60 ops={'u': 62599, 'cx': 39854, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1104   size=1173   Toffoli_N=3555   Depth_N=2648  ancilla=65 ops={'mcx': 508, 'cx': 356, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=68180  size=100131ancilla=65 ops={'u': 61097, 'cx': 39026, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1114   size=1183   Toffoli_N=3459   Depth_N=2618  ancilla=70 ops={'mcx': 492, 'cx': 382, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=66351  size=97541 ancilla=70 ops={'u': 59473, 'cx': 38060, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1125   size=1193   Toffoli_N=3361   Depth_N=2589  ancilla=75 ops={'mcx': 474, 'cx': 410, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=64494  size=95211 ancilla=75 ops={'u': 57971, 'cx': 37232, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1128   size=1203   Toffoli_N=3271   Depth_N=2552  ancilla=80 ops={'mcx': 464, 'cx': 430, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=62187  size=91841 ancilla=80 ops={'u': 55981, 'cx': 35852, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1130   size=1213   Toffoli_N=3197   Depth_N=2522  ancilla=85 ops={'cx': 454, 'mcx': 450, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=60931  size=90183 ancilla=85 ops={'u': 54899, 'cx': 35276, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1130   size=1223   Toffoli_N=3124   Depth_N=2488  ancilla=90 ops={'cx': 477, 'mcx': 437, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=59615  size=88417 ancilla=90 ops={'u': 53770, 'cx': 34639, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1141   size=1233   Toffoli_N=3071   Depth_N=2477  ancilla=95 ops={'cx': 496, 'mcx': 428, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=58557  size=87131 ancilla=95 ops={'u': 52929, 'cx': 34194, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1151   size=1243   Toffoli_N=2999   Depth_N=2451  ancilla=100 ops={'cx': 518, 'mcx': 416, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=57236  size=85257 ancilla=100 ops={'u': 51753, 'cx': 33496, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1153   size=1253   Toffoli_N=2931   Depth_N=2417  ancilla=105 ops={'cx': 538, 'mcx': 406, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=55848  size=83155 ancilla=105 ops={'u': 50463, 'cx': 32684, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1147   size=1263   Toffoli_N=2887   Depth_N=2387  ancilla=110 ops={'cx': 552, 'mcx': 402, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=54490  size=81305 ancilla=110 ops={'u': 49347, 'cx': 31950, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1156   size=1273   Toffoli_N=2902   Depth_N=2408  ancilla=115 ops={'cx': 555, 'mcx': 409, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=54499  size=81217 ancilla=115 ops={'u': 49284, 'cx': 31925, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1149   size=1283   Toffoli_N=2887   Depth_N=2397  ancilla=120 ops={'cx': 564, 'mcx': 410, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=53981  size=80333 ancilla=120 ops={'u': 48755, 'cx': 31570, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1149   size=1293   Toffoli_N=2854   Depth_N=2385  ancilla=125 ops={'cx': 579, 'mcx': 405, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=53486  size=79441 ancilla=125 ops={'u': 48176, 'cx': 31257, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1135   size=1303   Toffoli_N=2804   Depth_N=2351  ancilla=130 ops={'cx': 599, 'mcx': 395, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=52678  size=78411 ancilla=130 ops={'u': 47486, 'cx': 30917, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1141   size=1313   Toffoli_N=2754   Depth_N=2337  ancilla=135 ops={'cx': 619, 'mcx': 385, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=51740  size=77381 ancilla=135 ops={'u': 46796, 'cx': 30577, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1146   size=1323   Toffoli_N=2704   Depth_N=2322  ancilla=140 ops={'cx': 639, 'mcx': 375, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=50792  size=76351 ancilla=140 ops={'u': 46106, 'cx': 30237, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1155   size=1333   Toffoli_N=2670   Depth_N=2319  ancilla=145 ops={'cx': 655, 'mcx': 369, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=49990  size=75589 ancilla=145 ops={'u': 45588, 'cx': 29993, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1165   size=1343   Toffoli_N=2687   Depth_N=2341  ancilla=150 ops={'cx': 658, 'mcx': 376, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=50116  size=75629 ancilla=150 ops={'u': 45597, 'cx': 30024, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1166   size=1353   Toffoli_N=2665   Depth_N=2330  ancilla=155 ops={'cx': 670, 'mcx': 374, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=50070  size=74859 ancilla=155 ops={'u': 45123, 'cx': 29728, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1175   size=1363   Toffoli_N=2656   Depth_N=2335  ancilla=160 ops={'cx': 679, 'mcx': 375, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=49905  size=74359 ancilla=160 ops={'u': 44810, 'cx': 29541, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1183   size=1373   Toffoli_N=2634   Depth_N=2331  ancilla=165 ops={'cx': 691, 'mcx': 373, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=49502  size=73589 ancilla=165 ops={'u': 44336, 'cx': 29245, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1193   size=1383   Toffoli_N=2612   Depth_N=2329  ancilla=170 ops={'cx': 703, 'mcx': 371, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=49181  size=72819 ancilla=170 ops={'u': 43862, 'cx': 28949, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1199   size=1393   Toffoli_N=2629   Depth_N=2347  ancilla=175 ops={'cx': 706, 'mcx': 378, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=49141  size=72859 ancilla=175 ops={'u': 43871, 'cx': 28980, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1210   size=1403   Toffoli_N=2648   Depth_N=2372  ancilla=180 ops={'cx': 709, 'mcx': 385, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=49276  size=73005 ancilla=180 ops={'u': 43938, 'cx': 29059, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1207   size=1413   Toffoli_N=2645   Depth_N=2371  ancilla=185 ops={'cx': 718, 'mcx': 386, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=49034  size=72823 ancilla=185 ops={'u': 43799, 'cx': 29016, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1218   size=1423   Toffoli_N=2664   Depth_N=2396  ancilla=190 ops={'cx': 721, 'mcx': 393, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=49149  size=72969 ancilla=190 ops={'u': 43866, 'cx': 29095, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1207   size=1433   Toffoli_N=2639   Depth_N=2375  ancilla=195 ops={'cx': 736, 'mcx': 388, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48586  size=72459 ancilla=195 ops={'u': 43521, 'cx': 28930, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1217   size=1443   Toffoli_N=2636   Depth_N=2387  ancilla=200 ops={'cx': 745, 'mcx': 389, 'ccx': 297, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48379  size=72277 ancilla=200 ops={'u': 43382, 'cx': 28887, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1227   size=1453   Toffoli_N=2629   Depth_N=2399  ancilla=205 ops={'cx': 762, 'mcx': 390, 'ccx': 289, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48270  size=72131 ancilla=205 ops={'u': 43275, 'cx': 28848, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1232   size=1463   Toffoli_N=2653   Depth_N=2420  ancilla=210 ops={'cx': 764, 'mcx': 398, 'ccx': 289, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48418  size=72381 ancilla=210 ops={'u': 43411, 'cx': 28962, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1221   size=1473   Toffoli_N=2677   Depth_N=2425  ancilla=215 ops={'cx': 766, 'mcx': 406, 'ccx': 289, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48543  size=72631 ancilla=215 ops={'u': 43547, 'cx': 29076, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1214   size=1483   Toffoli_N=2686   Depth_N=2426  ancilla=220 ops={'cx': 775, 'mcx': 410, 'ccx': 286, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48696  size=72719 ancilla=220 ops={'u': 43588, 'cx': 29123, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1192   size=1493   Toffoli_N=2704   Depth_N=2416  ancilla=225 ops={'cx': 779, 'mcx': 416, 'ccx': 286, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48815  size=72909 ancilla=225 ops={'u': 43690, 'cx': 29211, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1107   size=1503   Toffoli_N=2702   Depth_N=2331  ancilla=230 ops={'cx': 791, 'mcx': 416, 'ccx': 284, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48398  size=72891 ancilla=230 ops={'u': 43672, 'cx': 29211, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1101   size=1513   Toffoli_N=2726   Depth_N=2341  ancilla=235 ops={'cx': 793, 'mcx': 424, 'ccx': 284, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48422  size=73141 ancilla=235 ops={'u': 43808, 'cx': 29325, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1097   size=1523   Toffoli_N=2735   Depth_N=2345  ancilla=240 ops={'cx': 802, 'mcx': 428, 'ccx': 281, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48415  size=73229 ancilla=240 ops={'u': 43849, 'cx': 29372, 'measure': 8}
+ZUC_S1 | ANF_CSE_LS-primitive depth=1097   size=1523   Toffoli_N=2735   Depth_N=2345  ancilla=240 ops={'cx': 802, 'mcx': 428, 'ccx': 281, 'measure': 8, 'x': 4}
+ZUC_S1 | ANF_CSE_LS-transpiled depth=48415  size=73229 ancilla=240 ops={'u': 43849, 'cx': 29372, 'measure': 8}
+
+
+
+
+
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11772  size=20191 d_max=1 ancilla=516  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 1}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11840  size=20191 d_max=2 ancilla=258  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 2}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11876  size=20191 d_max=3 ancilla=172  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 3}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11842  size=20191 d_max=4 ancilla=129  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 4}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11842  size=20191 d_max=5 ancilla=104  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 5}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11809  size=20191 d_max=6 ancilla=86  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 6}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11827  size=20191 d_max=7 ancilla=74  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 7}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11865  size=20191 d_max=8 ancilla=65  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 8}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11845  size=20191 d_max=9 ancilla=58  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 9}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11859  size=20191 d_max=10 ancilla=52  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 10}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11844  size=20191 d_max=11 ancilla=47  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 11}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11860  size=20191 d_max=12 ancilla=43  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 12}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11850  size=20191 d_max=13 ancilla=40  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 13}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11882  size=20191 d_max=14 ancilla=37  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 14}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11858  size=20191 d_max=15 ancilla=35  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 15}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11848  size=20191 d_max=16 ancilla=33  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 16}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11874  size=20191 d_max=17 ancilla=31  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 17}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11863  size=20191 d_max=18 ancilla=29  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 18}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11853  size=20191 d_max=19 ancilla=28  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 19}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11882  size=20191 d_max=20 ancilla=26  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 20}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11871  size=20191 d_max=21 ancilla=25  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 21}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11862  size=20191 d_max=22 ancilla=24  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 22}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11841  size=20191 d_max=22 ancilla=24  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 22}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11887  size=20191 d_max=24 ancilla=22  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 24}
+AES | MILP-Phase1-primitive depth=1010   size=1013   Toffoli_N=5062   Depth_N=3558  ancilla=5 ops={'mcx': 881, 'ccx': 97, 'cx': 31, 'x': 4}
+AES | MILP-Phase1-transpiled depth=94542  size=136819ancilla=5 ops={'u': 82824, 'cx': 53995}
+AES | MILP-Phase2-transpiled depth=11882  size=20191 d_max=20 ancilla=26  temp=1  ops={'u': 11506, 'cx': 8685, 'barrier': 20}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11779  size=20206 d_max=1 ancilla=516  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 1}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11850  size=20206 d_max=2 ancilla=258  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 2}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11823  size=20206 d_max=3 ancilla=172  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 3}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11854  size=20206 d_max=4 ancilla=129  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 4}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11849  size=20206 d_max=5 ancilla=104  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 5}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11861  size=20206 d_max=6 ancilla=86  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 6}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11852  size=20206 d_max=7 ancilla=74  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 7}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11878  size=20206 d_max=8 ancilla=65  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 8}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11891  size=20206 d_max=9 ancilla=58  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 9}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11882  size=20206 d_max=10 ancilla=52  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 10}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11855  size=20206 d_max=11 ancilla=47  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 11}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11876  size=20206 d_max=12 ancilla=43  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 12}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11862  size=20206 d_max=13 ancilla=40  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 13}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11886  size=20206 d_max=14 ancilla=37  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 14}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11873  size=20206 d_max=15 ancilla=35  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 15}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11879  size=20206 d_max=16 ancilla=33  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 16}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11880  size=20206 d_max=17 ancilla=31  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 17}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11878  size=20206 d_max=18 ancilla=29  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 18}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11832  size=20206 d_max=19 ancilla=28  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 19}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11885  size=20206 d_max=20 ancilla=26  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 20}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11880  size=20206 d_max=20 ancilla=26  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 20}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11899  size=20206 d_max=22 ancilla=24  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 22}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11891  size=20206 d_max=20 ancilla=26  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 20}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11902  size=20206 d_max=24 ancilla=22  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 24}
+SM4 | MILP-Phase1-primitive depth=1023   size=1028   Toffoli_N=5146   Depth_N=3589  ancilla=5 ops={'mcx': 877, 'ccx': 115, 'cx': 31, 'x': 5}
+SM4 | MILP-Phase1-transpiled depth=97640  size=141330ancilla=5 ops={'u': 85589, 'cx': 55741}
+SM4 | MILP-Phase2-transpiled depth=11874  size=20206 d_max=24 ancilla=22  temp=1  ops={'u': 11507, 'cx': 8699, 'barrier': 24}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3082   size=5122  d_max=1 ancilla=119  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 1}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3128   size=5122  d_max=2 ancilla=60  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 2}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3119   size=5122  d_max=3 ancilla=40  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 3}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3117   size=5122  d_max=4 ancilla=30  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 4}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3104   size=5122  d_max=5 ancilla=24  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 5}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3132   size=5122  d_max=6 ancilla=20  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 6}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3125   size=5122  d_max=7 ancilla=17  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 7}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3129   size=5122  d_max=8 ancilla=15  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 8}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3117   size=5122  d_max=8 ancilla=15  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 8}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3137   size=5122  d_max=10 ancilla=12  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 10}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3140   size=5122  d_max=11 ancilla=11  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 11}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3138   size=5122  d_max=12 ancilla=10  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 12}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3134   size=5122  d_max=11 ancilla=11  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 11}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3143   size=5122  d_max=11 ancilla=11  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 11}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3137   size=5122  d_max=11 ancilla=11  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 11}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3135   size=5122  d_max=12 ancilla=10  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 12}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3133   size=5122  d_max=11 ancilla=11  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 11}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3134   size=5122  d_max=12 ancilla=10  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 12}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3147   size=5122  d_max=12 ancilla=10  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 12}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3133   size=5122  d_max=10 ancilla=12  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 10}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3139   size=5122  d_max=12 ancilla=10  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 12}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3140   size=5122  d_max=10 ancilla=12  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 10}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3143   size=5122  d_max=12 ancilla=10  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 12}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3138   size=5122  d_max=11 ancilla=11  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 11}
+SKINNY | MILP-Phase1-primitive depth=153    size=164    Toffoli_N=417    Depth_N=349   ancilla=4 ops={'mcx': 88, 'ccx': 47, 'cx': 25, 'x': 4}
+SKINNY | MILP-Phase1-transpiled depth=5657   size=7758  ancilla=4 ops={'u': 4759, 'cx': 2999}
+SKINNY | MILP-Phase2-transpiled depth=3146   size=5122  d_max=12 ancilla=10  temp=1  ops={'u': 2974, 'cx': 2148, 'barrier': 12}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6428   size=11005 d_max=1 ancilla=259  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 1}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6493   size=11005 d_max=2 ancilla=130  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 2}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6521   size=11005 d_max=3 ancilla=87  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 3}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6531   size=11005 d_max=4 ancilla=65  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 4}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6503   size=11005 d_max=5 ancilla=52  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 5}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6476   size=11005 d_max=6 ancilla=44  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 6}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6498   size=11005 d_max=7 ancilla=37  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 7}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6535   size=11005 d_max=8 ancilla=33  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 8}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6516   size=11005 d_max=9 ancilla=29  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 9}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6545   size=11005 d_max=10 ancilla=26  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 10}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6516   size=11005 d_max=11 ancilla=24  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 11}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6561   size=11005 d_max=12 ancilla=22  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 12}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6520   size=11005 d_max=13 ancilla=20  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 13}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6520   size=11005 d_max=13 ancilla=20  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 13}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6543   size=11005 d_max=15 ancilla=18  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 15}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6547   size=11005 d_max=15 ancilla=18  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 15}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6530   size=11005 d_max=15 ancilla=18  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 15}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6528   size=11005 d_max=17 ancilla=16  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 17}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6518   size=11005 d_max=18 ancilla=15  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 18}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6561   size=11005 d_max=20 ancilla=13  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 20}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6505   size=11005 d_max=19 ancilla=14  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 19}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6550   size=11005 d_max=14 ancilla=19  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 14}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6556   size=11005 d_max=20 ancilla=13  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 20}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6529   size=11005 d_max=15 ancilla=18  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 15}
+ZUC_S0 | MILP-Phase1-primitive depth=627    size=632    Toffoli_N=2136   Depth_N=1667  ancilla=3 ops={'mcx': 467, 'ccx': 129, 'cx': 31, 'x': 5}
+ZUC_S0 | MILP-Phase1-transpiled depth=29668  size=40566 ancilla=3 ops={'u': 25179, 'cx': 15387}
+ZUC_S0 | MILP-Phase2-transpiled depth=6536   size=11005 d_max=16 ancilla=17  temp=1  ops={'u': 6224, 'cx': 4781, 'barrier': 16}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11708  size=20108 d_max=1 ancilla=513  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 1}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11792  size=20108 d_max=2 ancilla=257  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 2}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11804  size=20108 d_max=3 ancilla=171  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 3}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11792  size=20108 d_max=4 ancilla=129  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 4}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11792  size=20108 d_max=5 ancilla=103  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 5}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11804  size=20108 d_max=6 ancilla=86  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 6}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11787  size=20108 d_max=7 ancilla=74  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 7}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11806  size=20108 d_max=8 ancilla=65  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 8}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11811  size=20108 d_max=9 ancilla=57  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 9}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11832  size=20108 d_max=10 ancilla=52  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 10}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11799  size=20108 d_max=11 ancilla=47  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 11}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11830  size=20108 d_max=12 ancilla=43  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 12}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11807  size=20108 d_max=13 ancilla=40  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 13}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11789  size=20108 d_max=14 ancilla=37  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 14}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11778  size=20108 d_max=15 ancilla=35  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 15}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11809  size=20108 d_max=16 ancilla=33  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 16}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11837  size=20108 d_max=17 ancilla=31  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 17}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11834  size=20108 d_max=18 ancilla=29  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 18}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11837  size=20108 d_max=19 ancilla=27  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 19}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11818  size=20108 d_max=20 ancilla=26  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 20}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11770  size=20108 d_max=21 ancilla=25  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 21}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11806  size=20108 d_max=21 ancilla=25  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 21}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11799  size=20108 d_max=23 ancilla=23  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 23}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11829  size=20108 d_max=24 ancilla=22  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 24}
+ZUC_S1 | MILP-Phase1-primitive depth=1032   size=1035   Toffoli_N=5177   Depth_N=3594  ancilla=5 ops={'mcx': 883, 'ccx': 116, 'cx': 32, 'x': 4}
+ZUC_S1 | MILP-Phase1-transpiled depth=98330  size=142301ancilla=5 ops={'u': 86207, 'cx': 56094}
+ZUC_S1 | MILP-Phase2-transpiled depth=11828  size=20108 d_max=21 ancilla=25  temp=1  ops={'u': 11443, 'cx': 8665, 'barrier': 21}
