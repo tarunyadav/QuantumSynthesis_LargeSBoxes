@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 
@@ -14,6 +15,8 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 import argparse, json, os, sys, importlib.util, random, csv
 from typing import List, Tuple, Dict
+
+
 
 # ---------------- Qiskit ----------------
 try:
@@ -34,10 +37,14 @@ def load_module(path: str, name: str):
     return mod
 
 #dutta = load_module("Dutta.py", "dutta_module")
-mmd_cse_ls = load_module("ANF_CSE_LS.py", "anf_cse_ls")
+CT = load_module("make_clifford_t.py", "Clifford+T")
+make_and_report = getattr(CT, "make_and_report", None)
+
+
+anf_cse_ls = load_module("ANF_CSE_LS.py", "anf_cse_ls")
 milp = load_module("MILP.py", "MILP")
 #if not (dutta and mmd and milp):
-if not (mmd_cse_ls and milp):
+if not (anf_cse_ls and milp):
     print("ERROR: Missing ANF_CSE_LS.py or MILP.py in current directory.")
     sys.exit(1)
 
@@ -116,7 +123,7 @@ def synthesize_exact_like_source(sbox: List[int], n: int = 8, add_measure: bool 
     return qc
     
 #synthesize_exact_like_source = getattr(dutta, "synthesize_exact_like_source", None)
-build_anf_cse_ls = getattr(mmd_cse_ls, "build_anf_cse_ls", None)
+build_anf_cse_ls = getattr(anf_cse_ls, "build_anf_cse_ls", None)
 if not build_anf_cse_ls:
     print("ERROR: Required functions not found ANF_CSE_LS.py")
     sys.exit(1)
@@ -388,9 +395,35 @@ def stats(qc: QuantumCircuit) -> Dict[str, int]:
     # return {"depth": qc.depth(), "size": qc.size(), "ops": dict(qc.count_ops()), "qubits": qc.num_qubits}
     return {"depth": qc.depth(), "size": qc.size(), "ops": dict(qc.count_ops())}
 
+def expand_mcx_ccx(qc, max_reps=6, mcx_mode='v-chain', ancilla_indices=None):
+    """
+    Repeatedly decompose the circuit to expose MCX/CCX definitions.
+    Optionally replace MCX gates with an explicit MCXGate(mode=...) construction
+    so Qiskit provides a consistent .definition (choose mode 'v-chain' or 'noancilla').
+    """
+    qc2 = qc.copy()
+    # If MCX gates are present with different internals, you can re-append a consistent MCX
+    # Alternatively just decompose repeatedly to unfold nested defs
+    for _ in range(max_reps):
+        prev = qc2.count_ops()
+        # attempt to replace high-level MCX/CCX with definitions
+        qc2 = qc2.decompose(reps=1)
+        # try to replace any remaining composite definitions (Terra versions differ)
+        try:
+            qc2 = qc2.replace_all_gates_with_definitions()
+        except Exception:
+            pass
+        if qc2.count_ops() == prev:
+            break
+    return qc2
+
 def transpiled_ucx(qc: QuantumCircuit) -> QuantumCircuit:
     """Decompose then transpile to {u,cx} for realistic hardware metrics."""
     return transpile(qc.decompose(), basis_gates=["u","cx"], optimization_level=0)
+    # return transpile(qc.decompose(), basis_gates=['cz','id','rx','rz','rzz', 'sx', 'x'], optimization_level=0)
+    # return transpile(qc.decompose(), basis_gates=['cz','rz', 'sx'], optimization_level=0)
+    # return transpile(qc.decompose(), basis_gates=['rx', 'sx', 'x'], optimization_level=0)
+    # return transpile(qc.decompose(), basis_gates=['h', 's', 't', 'tdg', 'cx'])
     # return transpile(qc.decompose())
 
 def ancilla_count(qc: QuantumCircuit, inputs: List[int], outputs: List[int], temp: int = 0) -> int:
@@ -479,31 +512,12 @@ def main():
                
             mmd_toff0 = toffoli_ccx_units(h0, ccx0)
             our_depth0 = depth_converted(depth0, h0)
-            
-            # dq_row = {"which": key, "mode": "MMD-primitive", **stats(dq),
-            #           "ancilla": ancilla_count(dq, list(range(8)), list(range(8)))}
+
             dq_row = {"which": key, "mode": "MMD-primitive", **stats(dq),
                       "ancilla": c0["ancilla"],'Toffoli_N': mmd_toff0 ,'Depth_N':our_depth0}
             rows.append(dq_row)
             
-            #=============== Print Toffloi Counts and depth =========================
-            # c0 = mcx_toffoli_counts(dq)
-            
-            # h0, ccx0, cx0, x0 = mcx_hist(dq)
-            # depth0 = dq.depth()
-               
-            # mmd_toff0 = toffoli_ccx_units(h0, ccx0)
-            # our_depth0 = depth_converted(depth0, h0)
-            
-            # df_mmd  = pd.DataFrame({key: c0 |{ "Toffoli_Normalized": mmd_toff0,"Depth_Normalized": our_depth0} },).T.fillna(0).astype(int)
-            # print(df_mmd)
-            
-            # mmd_break = {
-            #     key: {"NOT": x0, "CNOT": cx0, "Toffoli": mmd_toff0, "ancilla": c0["ancilla"], "Depth": our_depth0},
-            # }
-            # df_mmd_break  = pd.DataFrame(mmd_break).T
-            # print(df_mmd_break)
-            
+  
             
             
             dqt = transpiled_ucx(dq)
@@ -511,8 +525,7 @@ def main():
             if args.sv_check:
                 verify_transpiled_by_statevector(dqt, sbox, outputs=list(range(8)), output_order="lsb",
                                                  mode="MMD-transpiled", sv_samples=args.sv_samples, verbose=args.verbose)
-            # rows.append({"which": key, "mode": "MMD-transpiled", **stats(dqt),
-            #              "ancilla": ancilla_count(dqt, list(range(8)), list(range(8)))})
+
             rows.append({"which": key, "mode": "MMD-transpiled", **stats(dqt),
                           "ancilla":  c0["ancilla"]})
         
@@ -553,31 +566,6 @@ def main():
                     print(f" {key} | Ancilla: {ancilla} Completed")
             
                 
-                # from analyze_sbox_stats import analyze_qc_primitives, print_summary_row
-                # #analyze (provide a conversion map if you have reference numbers)
-                # conv_map = {2: 1.0, 3: 3.0, 4: 5.0, 5: 7.0, 6: 9.0, 7: 11.0, 8: 13.0}
-                # stats_print = analyze_qc_primitives(mq, pair_temps, full_temps, n_inputs=8, n_outputs=8,
-                #                               mcx_to_ccx_conv=conv_map, ccx_tdepth=1.2)
-                # stats_print["and_depth"] = and_proxy
-                # print_summary_row("ANF+CSE+LS Details", stats_print)
-                #=============== Print Toffloi Counts and depth =========================
-                # c0 = mcx_toffoli_counts(mq,int(args.ancilla))
-                # # df_mmd  = pd.DataFrame({key: c0}).T.fillna(0).astype(int)
-                # # print(df_mmd)
-                
-                # h0, ccx0, cx0, x0 = mcx_hist(mq)
-                # depth0 = mq.depth()
-                   
-                # mmd_toff0 = toffoli_ccx_units(h0, ccx0)
-                # our_depth0 = depth_converted(depth0, h0)
-                # df_mmd  = pd.DataFrame({key: c0 |{ "Toffoli_Normalized": mmd_toff0,"Depth_Normalized": our_depth0} },).T.fillna(0).astype(int)
-                # print(df_mmd)
-                
-                # mmd_break = {
-                #     key: {"NOT": x0, "CNOT": cx0, "Toffoli": mmd_toff0, "ancilla": int(args.ancilla) , "Depth": our_depth0},
-                # }
-                # df_mmd_break  = pd.DataFrame(mmd_break).T
-                # print(df_mmd_break)
                 
                 
                 mqt = transpiled_ucx(mq)
@@ -609,9 +597,7 @@ def main():
                 qc_m_prim = synth_with_mcx_from_solution(sol, name=f"MILP_{key}_primitive")
                 verify_qc_against_truth(qc_m_prim, sbox, inputs=list(range(8)), outputs=list(range(8,16)),
                                         output_order="lsb", mode="MILP-Phase1-primitive", verbose=args.verbose, check_ancilla=True)
-                # c0 = mcx_toffoli_counts(qc_m_prim)
-                # rows.append({"which": key, "mode": "MILP-Phase1-primitive", **stats(qc_m_prim),
-                #              "ancilla": ancilla_count(qc_m_prim, list(range(8)), list(range(8,16)))})
+
                 
                 
                 c0 = mcx_toffoli_counts(qc_m_prim)
@@ -628,27 +614,7 @@ def main():
                 rows.append({"which": key, "mode": "MILP-Phase1-primitive", **stats(qc_m_prim),
                              "ancilla": c0["ancilla"],'Toffoli_N': mmd_toff0 ,'Depth_N':our_depth0,})
                 
-                 
-                #=============== Print Toffloi Counts and depth =========================
-                # c0 = mcx_toffoli_counts(qc_m_prim)
-                # # df_mmd  = pd.DataFrame({key: c0}).T.fillna(0).astype(int)
-                # # print(df_mmd)
-                
-                # h0, ccx0, cx0, x0 = mcx_hist(qc_m_prim)
-                # depth0 = qc_m_prim.depth()
-                   
-                # mmd_toff0 = toffoli_ccx_units(h0, ccx0)
-                # our_depth0 = depth_converted(depth0, h0)
-                
-                # df_mmd  = pd.DataFrame({key: c0 |{ "Toffoli_Normalized": mmd_toff0,"Depth_Normalized": our_depth0} },).T.fillna(0).astype(int)
-                # print(df_mmd)
-                
-                # mmd_break = {
-                #     key: {"NOT": x0, "CNOT": cx0, "Toffoli": mmd_toff0,"ancilla": c0["ancilla"], "Depth": our_depth0},
-                # }
-                # df_mmd_break  = pd.DataFrame(mmd_break).T
-                # print(df_mmd_break)
-                
+
                 
                 # Transpiled A: directly transpile the primitive MCX circuit to {u,cx}
                 qctA = transpiled_ucx(qc_m_prim)
@@ -695,7 +661,13 @@ def main():
                              "ancilla": ancilla_count(qct, list(range(8)), milp_t_outputs, 1)})
 
     # -------- Summary --------
-    print("\n=== Summary MMD | ANF_CSE_LS | MILP-Phase1 | MILP-Phase2 ===")
+    if (args.method  in ["ALL",None]):
+        method = "MMD | ANF_CSE_LS | MILP-Phase1 | MILP-Phase2"
+    elif (args.method  in ["MILP"]):
+        method = "MILP-Phase1 | MILP-Phase2"
+    else:
+        method = args.method
+    print(f"\n=== Summary {method}===")
     # print(f"\n=== Summary Ancilla = {int(args.ancilla)} ===")
     for r in rows:
         if "primitive" in r['mode']:
@@ -708,12 +680,7 @@ def main():
             else:
                 print(f"{r['which']} | {r['mode']:<16} depth={r['depth']:<6} size={r['size']:<6}"
               f"ancilla={r.get('ancilla','?')} ops={r['ops']}")
-        # if r['mode'] == "MILP-Phase2-transpiled":
-        #     print(f"{r['which']} | {r['mode']:<16} depth={r['depth']:<6} size={r['size']:<6} qubits={r['qubits']:<4}"
-        #       f"ancilla={r.get('ancilla','?')}  temp={1}  ops={r['ops']}")
-        # else:
-        #     print(f"{r['which']} | {r['mode']:<16} depth={r['depth']:<6} size={r['size']:<6} qubits={r['qubits']:<4} "
-        #       f"ancilla={r.get('ancilla','?')} ops={r['ops']}")
+
 
     # Optional CSV
     if args.csv:
