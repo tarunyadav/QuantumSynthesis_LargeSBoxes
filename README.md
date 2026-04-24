@@ -2,6 +2,7 @@
 
 Source code for **Quantum Synthesis of Large S-Boxes: Heuristic and MILP-Based Transpiled-Depth Optimization** 
 
+* SPACE-2025 - https://link.springer.com/chapter/10.1007/978-3-032-16342-4_21 
 * eprint - https://eprint.iacr.org/2025/
 
 ## Source Code
